@@ -22,6 +22,3 @@ with sync_playwright() as playwright:
     expect(dashboard_v).to_be_visible()
     expect(dashboard_v).to_have_text('Dashboard')
 
-
-
-
