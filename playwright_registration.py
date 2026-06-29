@@ -15,7 +15,7 @@ with sync_playwright() as playwright:
     password_input = page.locator('//div[@data-testid="registration-form-password-input"]//div//input')
     password_input.fill('password')
 
-    login_button = page.locator('//button[@data-testid="registration-page-registration-button"]')
+    login_button = page.locator('//button[@data-testid="registration-pages-registration-button"]')
     login_button.click()
 
     dashboard_v = page.locator('//div//h6[@data-testid="dashboard-toolbar-title-text"]')
